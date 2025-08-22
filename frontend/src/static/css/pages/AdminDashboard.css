@@ -1,0 +1,95 @@
+.admin-dashboard-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.admin-dashboard {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  margin-top: 3rem;
+  padding: 2.5rem 2rem 2rem 2rem;
+  width: 95%;
+  max-width: 700px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.admin-tab-btn {
+  background: #e0eafc;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  color: #3686ae;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.admin-tab-btn.active, .admin-tab-btn:hover {
+  background: #3686ae;
+  color: #fff;
+}
+
+.admin-section {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.admin-section h3 {
+  color: #3686ae;
+  margin-bottom: 1rem;
+}
+
+.admin-list {
+  background: #f7fafd;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(54,134,174,0.07);
+}
+
+.admin-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0.5rem;
+  border-bottom: 1px solid #e0eafc;
+}
+
+.admin-list li:last-child {
+  border-bottom: none;
+}
+
+.admin-list button {
+  background: #eb3031;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.admin-list button:hover {
+  background: #b71c1c;
+}
